@@ -365,6 +365,17 @@ a {
     margin-bottom: 20px;
   }
 }
+
+@media (max-width: 767px) {
+  .text-1 h1 {
+    padding-top: 50px;
+  }
+  .text-1 span{
+    line-height: 1.5;
+     margin-top: 20px;
+    margin-bottom: 25px; 
+  }
+}
 .main-text-last {
   margin-bottom: 50px;
   color: white;
