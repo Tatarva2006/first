@@ -141,7 +141,7 @@ a {
 }
 .text-1 h1 {
   background-color: #ffc155;
-  padding-top: 100px;
+  padding-top: 150px;
   font-size: 24pt;
   font-weight: 900;
 }
@@ -326,6 +326,11 @@ a {
     padding-top: 50px;
   }
 }
+@media (max-width: 1215px) {
+  .text-1 h1 {
+    padding-top: 70px;
+  }
+}
 @media (max-width: 1090px) {
   .text-1 h1 {
     padding-top: 50px;
@@ -340,7 +345,7 @@ a {
   .text-1 h1 {
     padding-top: 20px;
   }
-  .text-1 span{
+  .text-1 span {
     line-height: 1.25;
     margin-top: 20px;
     margin-bottom: 20px;
@@ -350,10 +355,10 @@ a {
   .text-1 h1 {
     padding-top: 10px;
   }
-  .text-1 span{
+  .text-1 span {
     line-height: 1.2;
-     margin-top: 10px;
-    margin-bottom: 15px; 
+    margin-top: 10px;
+    margin-bottom: 15px;
   }
 }
 @media (min-width: 576px) and (max-width: 1200px) {
@@ -365,15 +370,14 @@ a {
     margin-bottom: 20px;
   }
 }
-
 @media (max-width: 767px) {
   .text-1 h1 {
     padding-top: 50px;
   }
-  .text-1 span{
+  .text-1 span {
     line-height: 1.5;
-     margin-top: 20px;
-    margin-bottom: 25px; 
+    margin-top: 20px;
+    margin-bottom: 25px;
   }
 }
 .main-text-last {
@@ -470,6 +474,7 @@ a {
 .gemoroi {
   text-align: center;
   background-image: url(/img/map.png);
+  background-repeat: no-repeat;
   width: 100%;
   padding-top: 139px;
   padding-bottom: 230px;
