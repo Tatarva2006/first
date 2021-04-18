@@ -469,7 +469,7 @@ a {
 }
 .gemoroi {
   text-align: center;
-  background-image: url(/img/map.png);
+  background-image: url(map.png);
   
   width: 100%;
   padding-top: 139px;
